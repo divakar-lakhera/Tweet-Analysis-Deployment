@@ -7,7 +7,26 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
-# How to install:
+# How to test backend:
 > Clone the repo 
 
-    git clone https://github.com/divakar-lakhera/Certi-Automation.git
+    https://github.com/divakar-lakhera/Tweet-Analysis-Deployment.git
+    
+    
+> Using terminal 
+
+    $ cd Backend
+    $ pip3 install -r requirements.txt
+    $ python3 wsgi.py
+    
+ # How to test frontend:
+> Clone the repo 
+
+    https://github.com/divakar-lakhera/Tweet-Analysis-Deployment.git
+    
+    
+> Using terminal 
+
+    $ cd Frontend/ml-frontend/
+    $ npm run serve        [you may need to initialise Vue JS]
+    
